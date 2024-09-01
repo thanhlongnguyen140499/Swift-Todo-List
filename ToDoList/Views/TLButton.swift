@@ -15,7 +15,7 @@ struct TLButton: View {
     var body: some View {
         Button(action: {
             // Action
-            
+            action()
         }, label: {
             ZStack(content: {
                 RoundedRectangle(cornerRadius: 10)
